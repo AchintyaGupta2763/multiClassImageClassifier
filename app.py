@@ -32,6 +32,8 @@ def predict(image):
     return CLASS_NAMES[prediction], tf.nn.softmax(logits)[prediction].numpy()
 
 # ======== STREAMLIT UI ========
+st.set_page_config(page_title="Image Classifier", page_icon="🧠")
+
 st.title("🧠 Image Classifier")
 st.write("Upload an image to classify it using the trained model.")
 
@@ -44,3 +46,14 @@ if uploaded_file:
     label, confidence = predict(image)
     st.success(f"Predicted Class: **{label}**")
     st.info(f"Confidence: {confidence:.2%}")
+
+# ======== SIDEBAR WITH PROJECT LINKS ========
+st.sidebar.title("🔗 Other Projects")
+# st.sidebar.markdown("[📊 Data Dashboard](https://your-data-dashboard.streamlit.app/)")
+st.sidebar.markdown("[🤖 MY AI CLONE](https://huggingface.co/spaces/Achintya-Gupta/ChikuClone)")
+st.sidebar.markdown("[📷 AI DENTAL REAL WORLD PROJECT](https://dentalsrm.streamlit.app/)")
+st.sidebar.markdown("[🌾 Crop Disease Classifier](https://parking-srm.vercel.app/login)"+"credential==test@gmail.com[test123], admin@gmail.com[admin123]")
+
+# Optional: Add credits
+st.sidebar.markdown("---")
+st.sidebar.markdown("Made with ❤️ by [ACHINTYA GUPTA](https://github.com/AchintyaGupta2763)")
