@@ -52,7 +52,7 @@ st.sidebar.title("🔗 Other Projects")
 # st.sidebar.markdown("[📊 Data Dashboard](https://your-data-dashboard.streamlit.app/)")
 st.sidebar.markdown("[🤖 MY AI CLONE](https://huggingface.co/spaces/Achintya-Gupta/ChikuClone)")
 st.sidebar.markdown("[📷 AI DENTAL REAL WORLD PROJECT](https://dentalsrm.streamlit.app/)")
-st.sidebar.markdown("[🌾 Crop Disease Classifier](https://parking-srm.vercel.app/login)"+"credential==test@gmail.com[test123], admin@gmail.com[admin123]")
+st.sidebar.markdown("[🚗 COLLEGE PARKING PORTAL (fullstack app)](https://parking-srm.vercel.app/login)"+" ==> credential==test@gmail.com[test123], admin@gmail.com[admin123]")
 
 # Optional: Add credits
 st.sidebar.markdown("---")
